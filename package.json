@@ -1,0 +1,32 @@
+{
+  "name": "ioredis-event-bus",
+  "version": "1.0.1",
+  "description": "personal package for managing event-bus using redis",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "tsc index.ts",
+    "start": "ts-node src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ankur77720/event-bus.git"
+  },
+  "keywords": [
+    "redis",
+    "event-bus",
+    "microservice"
+  ],
+  "author": "Ankur prajapati",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ankur77720/event-bus/issues"
+  },
+  "homepage": "https://github.com/Ankur77720/event-bus#readme",
+  "dependencies": {
+    "@types/node": "^22.7.5",
+    "ioredis": "^5.4.1",
+    "redis": "^4.7.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  }
+}
